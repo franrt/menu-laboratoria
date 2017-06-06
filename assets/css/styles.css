@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #db7878;
+    font-family: 'Roboto';
+}
+
+ul li {
+    display: flex;
+}
+
+ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover,
+.dropbtn:hover {
+    background-color: #992828;
+    color: whitesmoke;
+}
